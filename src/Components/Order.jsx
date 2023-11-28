@@ -26,10 +26,10 @@ function Order({order, setOrder, deleteOrder}) {
             <p className="text-2xl font-bold">{my_order.price}</p>
             <div className="flex">
                 <div onClick={() => setOrder(order)} className="bg-ed-btn w-10 h-10 flex justify-center align-middle items-center rounded-md cursor-pointer hover:bg-gradient-to-b from-lime-300 to-green-500">
-                    <img src="/pen.svg" alt="" />
+                    <img src="src/assets/pen.svg" alt="" />
                 </div>
                 <div onClick={handleDelete} className="bg-del-btn w-10 h-10 flex justify-center align-middle items-center rounded-md cursor-pointer ml-3 hover:bg-gradient-to-b from-pink-500 to-pink-700">
-                    <img src="/bin.svg" alt="" />
+                    <img src="src/assets/bin.svg" alt="" />
                 </div>
             </div>
         </div>

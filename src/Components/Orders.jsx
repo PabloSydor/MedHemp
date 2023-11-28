@@ -29,7 +29,7 @@ function Orders({ orders, setOrder, deleteOrder }) {
         </div>
       : 
       <div className="pb-32 md:pb-0 flex justify-center align-middle items-center flex-col mt-20">
-        <img className="w-12 opacity-80" src="/cannabis.png" alt="" />
+        <img className="w-12 opacity-80" src="src/assets/cannabis.png" alt="" />
         <p className="ml-5 text-slate-300 mt-3 text-xl text-center">No orders, time to take a natural medicine!</p>
       </div>
       
