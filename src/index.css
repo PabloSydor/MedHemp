@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.bg-pale-green {
+    background-color: #F1F7EF;
+}
+
+.bg-faded-green {
+    background: linear-gradient(180deg, #99ED7B 0%, #59D56A 100%);
+}
+
+.bg-fg-h {
+    background: linear-gradient(180deg, #96ff70 0%, #48cc59 100%);
+}
+
+
+
+.bg-ed-btn {
+    background: linear-gradient(180deg, #99ED7B 0%, #59D56A 100%);
+}
+
+.bg-del-btn {
+    background: linear-gradient(180deg, #ED7B90 0%, #D55986 100%);
+}
